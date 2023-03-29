@@ -14,8 +14,10 @@
 		7DA33A0229D1629B00C4F3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA33A0129D1629B00C4F3F5 /* Assets.xcassets */; };
 		7DA33A0529D1629B00C4F3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA33A0329D1629B00C4F3F5 /* LaunchScreen.storyboard */; };
 		7DA33A0D29D1C48D00C4F3F5 /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA33A0C29D1C48D00C4F3F5 /* testVC.swift */; };
-		7DA33A0F29D1DCA400C4F3F5 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA33A0E29D1DCA400C4F3F5 /* LinearSearch.swift */; };
-		7DA33A1129D1DD3A00C4F3F5 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA33A1029D1DD3A00C4F3F5 /* Set.swift */; };
+		7DA33A0F29D1DCA400C4F3F5 /* 1)LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA33A0E29D1DCA400C4F3F5 /* 1)LinearSearch.swift */; };
+		7DA33A1129D1DD3A00C4F3F5 /* 2)Sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA33A1029D1DD3A00C4F3F5 /* 2)Sets.swift */; };
+		7DA33A1329D42E2400C4F3F5 /* 3)Dictionarys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA33A1229D42E2400C4F3F5 /* 3)Dictionarys.swift */; };
+		7DA33A1529D49DBB00C4F3F5 /* Sliding Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA33A1429D49DBB00C4F3F5 /* Sliding Window.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,10 @@
 		7DA33A0429D1629B00C4F3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DA33A0629D1629B00C4F3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DA33A0C29D1C48D00C4F3F5 /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
-		7DA33A0E29D1DCA400C4F3F5 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
-		7DA33A1029D1DD3A00C4F3F5 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		7DA33A0E29D1DCA400C4F3F5 /* 1)LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1)LinearSearch.swift"; sourceTree = "<group>"; };
+		7DA33A1029D1DD3A00C4F3F5 /* 2)Sets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2)Sets.swift"; sourceTree = "<group>"; };
+		7DA33A1229D42E2400C4F3F5 /* 3)Dictionarys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3)Dictionarys.swift"; sourceTree = "<group>"; };
+		7DA33A1429D49DBB00C4F3F5 /* Sliding Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sliding Window.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +69,11 @@
 				7DA339F829D1629600C4F3F5 /* AppDelegate.swift */,
 				7DA339FA29D1629600C4F3F5 /* SceneDelegate.swift */,
 				7DA339FC29D1629600C4F3F5 /* ViewController.swift */,
-				7DA33A0E29D1DCA400C4F3F5 /* LinearSearch.swift */,
-				7DA33A1029D1DD3A00C4F3F5 /* Set.swift */,
+				7DA33A0E29D1DCA400C4F3F5 /* 1)LinearSearch.swift */,
+				7DA33A1029D1DD3A00C4F3F5 /* 2)Sets.swift */,
+				7DA33A1229D42E2400C4F3F5 /* 3)Dictionarys.swift */,
 				7DA33A0C29D1C48D00C4F3F5 /* testVC.swift */,
+				7DA33A1429D49DBB00C4F3F5 /* Sliding Window.swift */,
 				7DA339FE29D1629600C4F3F5 /* Main.storyboard */,
 				7DA33A0129D1629B00C4F3F5 /* Assets.xcassets */,
 				7DA33A0329D1629B00C4F3F5 /* LaunchScreen.storyboard */,
@@ -148,9 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA33A0D29D1C48D00C4F3F5 /* testVC.swift in Sources */,
+				7DA33A1529D49DBB00C4F3F5 /* Sliding Window.swift in Sources */,
 				7DA339FD29D1629600C4F3F5 /* ViewController.swift in Sources */,
-				7DA33A1129D1DD3A00C4F3F5 /* Set.swift in Sources */,
-				7DA33A0F29D1DCA400C4F3F5 /* LinearSearch.swift in Sources */,
+				7DA33A1329D42E2400C4F3F5 /* 3)Dictionarys.swift in Sources */,
+				7DA33A1129D1DD3A00C4F3F5 /* 2)Sets.swift in Sources */,
+				7DA33A0F29D1DCA400C4F3F5 /* 1)LinearSearch.swift in Sources */,
 				7DA339F929D1629600C4F3F5 /* AppDelegate.swift in Sources */,
 				7DA339FB29D1629600C4F3F5 /* SceneDelegate.swift in Sources */,
 			);
