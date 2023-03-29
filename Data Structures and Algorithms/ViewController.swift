@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.view = LinearSearch()
-        self.view = Sets()
+        self.view = SlidingWindow()
     }
 }
 
